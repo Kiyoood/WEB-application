@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html,body{
+    padding: 0px;
+    height: 2100px;
+    width: 100%;
+    margin: 0px;
+    }
+    .nav{
+        display: flex;
+        width: auto;
+        height: 100px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 1);
+    }
+    .nav img{
+        margin-left: 50px;
+        width: 150px;
+        height: 100px;
+    }
+    .kong{
+        width: 100%;
+    }
+    .nav_you{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav_you_shang{
+        display: flex;
+        width: auto;
+        text-align: center;
+        justify-content: center;
+        height: 50px;
+    }
+    .nav_you_xia{
+        display: flex;
+        width: auto;
+        text-align: center;
+        justify-content: center;
+        height: 50px;
+    }
+    .p1{
+        margin-right: 20px;
+        width: 100px;
+        height: 100px;
+    }
+    .nav_you_shang a:hover{
+        color: #fff;
+        background-color: black;
+    }
+    .nav_you_xia a:hover{
+        color: #fff;
+        background-color: black;
+    }
+    .p2{
+
+        font-weight: bold;
+        width: 100px;
+        height: 100px;
+    }
+    .nav2{
+        display: flex;
+        background-color: black;
+        width: 100%;
+        height: 45px;
+       
+  align-items: center;
+    }
+    .nav2 p{
+        color: #fff;
+        margin: 0;
+        font-weight: bold;
+        margin-left: 10%;
+    }
+    .nav3{
+			display: flex;
+            width: auto;
+            height: 50px;
+            text-align: center;
+            background-color: rgb(233, 252, 252);
+    }
+    .nav3 p{
+        width:auto;
+        color: blue;
+        height: 50px;
+        margin-left: 10%;
+    }
+
+    .zhutu img{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 450px;
+    }
+
+    a{
+        color: black;
+     text-decoration: none;   
+    }
+    .div_nr{
+        margin-top: 80px;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-bottom: 80px;
+        width: auto;
+        height:600px;
+        display: flex;
+        flex-direction: column;
+    }
+    .div_nr_flex{
+        margin-bottom: 50px;
+        width: auto;
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+    }
+    .flex_shang_1 img{
+        width: 50vw;
+        margin-right: 50px;
+        height: 300px;
+    }
+    .flex_shang_2 img{
+        width: 25vw;
+        margin-right: 50px;
+        height: 300px;
+    }
+    .flex_xia_1 img{
+        width: 50vw;
+        margin-top: 50px;
+        margin-right: 50px;
+        height: 300px;
+    }
+    .flex_xia_2 img{
+        width: 25vw;
+        margin-top: 50px;
+        margin-right: 50px;
+        height: 300px;
+    }
+    .div_dibu{
+        margin-top: 200px;
+        background-color: black;
+        width: auto;
+        height: 700px;
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+    .div_dibu1{
+
+        margin-left: 100px;
+        margin-top: 100px;
+       display: flex;
+       flex-direction: column;
+    }
+    .div_dibu1_p1{
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0;
+    }
+    .div_dibu1_p2{
+        color: #fff;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .flex_shang_1_1{
+
+        background-color:#fff ;
+    }
+    .flex_shang_1_1 p{
+        background: white;
+        color: #fff;
+        margin-top: -65px;
+        width: 20vw;
+        margin-left: 10px;
+        background-color: #fff;
+
+    }
+</style>
+<body>
+    <div class="nav">
+        <img src="./img/logo.png">
+        <div class="kong"></div>
+        <div class="nav_you">
+            <div class="nav_you_shang">
+                <div class="kong"></div>
+               <p class="p1"><a href="#">Alumni</a></p>
+               <p>|</p>
+               <p class="p1"><a href="#">Alumni</a></p>
+            </div>
+            <div class="nav_you_xia">
+                <p class="p2"><a href="#">Alumni</a></p>
+                <p>|</p>
+                <p class="p2"><a href="#">Alumni</a></p>
+                <p>|</p>
+                <p class="p2"><a href="#">Alumni</a></p>
+                <p>|</p>
+                <p class="p2"><a href="#">Alumni</a></p>
+             </div>
+        </div>
+    </div>
+    <div class="nav2">
+        <p>你好世界</p>
+     </div>
+     <div class="nav3">
+        <p>Campus Services</p>
+     </div>
+     <div class="zhutu" style="background-image: url('./img/WMG_LOWRES.jpg');width: 100%;margin-left: 0px;margin-right: 0px;height: 450px;background-repeat: no-repeat;background-size:100% 100% ;">
+            <div style="height: 150px;"></div>
+        <div style="text-align: center;width: auto;height: 450px;">
+                <p style="margin: 0;color: #fff;font-size: 40px;font-weight: bold;">Buildings and Spaces</p>
+                <p style="color: #fff;font-size: 20px;">Places for life, leisure and learning  </p>
+            </div>
+     </div>
+     <div class="div_nr">
+         <!--
+        <div class="div_nr_flex">
+            <div class="flex_shang_1">
+                <a href=""><img src="./img/naic_interior_800.jpg"></a> 
+                <div class="flex_shang_1_1">
+                    <p style="font-size: 18px;color: black;"> out more about each of our buildings on-campus</p>
+                    <p style="margin: 0;margin-top: -100px;margin-left: 10px;font-size: 23px;font-weight: bold;color: black;">OUR BUILDING</p>
+                </div>
+            </div>
+            <div class="flex_shang_2">
+                <a href=""><img src="./img/pcbj.png"></a>
+                <div class="flex_shang_1_1">
+                    <p style="font-size: 18px;">Helping you to find your way around campus easily</p>
+                    <p style="margin: 0;margin-top: -100px;margin-left: 10px;font-size: 23px;font-weight: bold;">CAMPUS MAP</p>
+                </div>
+            </div>
+        </div>
+        <div class="div_nr_flex">
+            <div class="flex_xia_2">
+                <a href=""><img src="./img/pcbj.png"></a>
+                <div class="flex_shang_1_1">
+                    <p style="font-size: 20px;">Helping you give advice to campus</p>
+                    <p style="margin: 0;margin-top: -100px;margin-left: 10px;font-size: 23px;font-weight: bold;">ACCESS TO SERVICE
+                    </p>
+                </div>
+            </div>
+            <div class="flex_xia_1">
+                <a href=""><img src="./img/20221110_144928-1-scaled.jpg"></a>
+                <div class="flex_shang_1_1">
+                    <p style="font-size: 18px;color: black;">View event held in each building and book with your preference 
+                    </p>
+                    <p style="margin: 0;margin-top: -100px;margin-left: 10px;font-size: 23px;font-weight: bold;color: black;">BOOK YOUR EVENT
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    -->
+    <div style="width: auto;height: 250px;background-color: #fff;margin: 0;display: flex;flex-direction: row;">
+        <a href="./1.html">
+        <div style="background-image: url('./img/naic_interior_800.jpg');background-repeat: no-repeat;background-size:100% 100% ;width: 50vw;margin-right: 50px;height: 300px;">
+            <div style="width: 20vw;height: 300px;">
+                <div style="height: 200px;"></div>
+                <div style="background-color: #fff;width: auto;height: 100px;">
+                    <div style="height: 10px;"></div>
+                    <p style="margin: 0;margin-left: 10px;font-size: 23px;font-weight: bold;color: black;">OUR BUILDING</p>
+                    <p style="margin: 0;font-size: 18px;color: black;margin-left: 10px;"> out more about each of our buildings on-campus</p>
+                </div>
+            </div>
+        </a>
+        </div>
+        <a href="./2.html">
+        <div style="background-color:#a3a1a1;width: 30vw;height: 300px;">
+            <div style="height: 200px;"></div>
+            <p style="margin: 0;margin-left: 10px;font-size: 23px;font-weight: bold;color: #fff;">ACCESS TO SERVICE</p>
+            <p style="margin: 0;font-size: 18px;color: #fff;margin-left: 10px;">Helping you give advice to campus</p>
+            <p></p>
+        </div>
+    </a>
+    </div>
+    <a href="./pdf.php">
+    <div style="width: auto;height: 250px;background-color: #fff;margin: 0;display: flex;flex-direction: row;margin-top: 100px;">
+        <div style="background-color:#3124e0;width: 30vw;height: 300px;margin-right: 50px;">
+            <div style="height: 200px;"></div>
+            <p style="margin: 0;margin-left: 10px;font-size: 23px;font-weight: bold;color: #fff;">CAMPUS MAP</p>
+            <p style="margin: 0;font-size: 18px;color: #fff;margin-left: 10px;">Helping you to find your way around campus easily</p>
+            <p></p>
+        </div>
+    </a>
+    <a href="./3.html">
+        <div style="background-image: url('./img/20221110_144928-1-scaled.jpg');background-repeat: no-repeat;background-size:100% 100% ;width: 46.5vw;height: 300px;">
+            <div style="width: 20vw;height: 300px;">
+                <div style="height: 200px;"></div>
+                <div style="background-color: #fff;width: auto;height: 100px;">
+                    <div style="height: 10px;"></div>
+                    <p style="margin: 0;margin-left: 10px;font-size: 23px;font-weight: bold;color: black;">BOOK YOUR EVENT</p>
+                    <p style="margin: 0;font-size: 18px;color: black;margin-left: 10px;">View event held in each building and book with your preference</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    </div>
+     </div>
+     <div class="div_dibu">
+        <div class="div_dibu1">
+            <p class="div_dibu1_p1">Get</p>
+            <p class="div_dibu1_p2">in touch</p>
+            <br>
+            <p class="div_dibu1_p2">Warwick University</p>
+            <p class="div_dibu1_p2">All Saints Building</p>
+            <p class="div_dibu1_p2">Coventry</p>
+            <p class="div_dibu1_p2">M15 6BH</p>
+            <p class="div_dibu1_p2">United Kingdom</p>
+            <br>
+            <a href=""><p class="div_dibu1_p2">+44 (0)161 247 2000</p></a>
+            <br>
+            <a href=""><p class="div_dibu1_p2">Contact us</p></a>
+            <br>
+            <a href=""><p class="div_dibu1_p2">Website feedback</p></a>
+        </div>
+     </div>
+</body>
+</html>

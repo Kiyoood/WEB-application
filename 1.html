@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html,body{
+        padding: 0;
+        margin: 0;
+    }
+    .nav{
+        width: auto;
+        height: 80px;
+        display: flex;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 1);
+        flex-direction: row;
+    }
+    .nav img{
+        width: 150px;
+        height: 80px;
+        margin-left: 50px;
+    }
+    .nav_sou{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    a{
+        color: black;
+     text-decoration: none;   
+    }
+</style>
+<body>
+    <div class="nav">
+        <a href="./index.html"><img src="./img/logo.png"></a>
+        <div style="width: 100%;"></div>
+        <div class="nav_sou">
+            <form action="sou.php" method="post" style="width: 300px;display: flex;flex-direction: row;">
+            <input style="width: 200px;height: 20px;" type="text" name="name">
+            <input style="width: 70px;height: 25px;margin-left: 10px;margin-right: 10px;" type="submit" value="GO">
+            </form>
+        </div>
+    </div>
+    <div style="justify-content: center;">
+    <p style="margin: 0;margin-top: 30px;margin-left: 100px;font-size: 20px;">YOUR building</p>
+    <p style="margin: 0;margin-top: 30px;margin-left: 100px;font-size: 25px;font-weight: bold;">PLEASE CHOOSE A BUILDING</p>
+    </div>
+    <div style="width: auto;height: 400px;display: flex;flex-direction: row;align-items: center;margin-top: 0px;justify-content: center;">
+        <a href="./1_1.html">
+    <div style="background-image: url('./img/2.jpg');width: 400px;height: 300px;margin-left: 50px;background-repeat: no-repeat;background-size:100% 100% ;align-items: center;text-align: center;">
+        <div style="height: 150px;"></div>
+        <p style="margin: 0;color: #fff;font-size: 25px;font-weight: bold;">Materials Engineering Centre</p>
+    </div>
+</a>
+    <div style="background-image: url('./img/3.jpg');width: 400px;height: 300px;margin-left: 50px;background-repeat: no-repeat;background-size:100% 100% ;align-items: center;text-align: center;">
+        <div style="height: 130px;"></div>
+        <p style="margin: 0;color: #fff;font-size: 25px;font-weight: bold;">International Manufacturing<br>Centre</p>
+    </div>
+    <div style="background-image: url('./img/4.jpg');width: 400px;height: 300px;margin-left: 50px;background-repeat: no-repeat;background-size:100% 100% ;align-items: center;text-align: center;">
+        <div style="height: 130px;"></div>
+        <p style="margin: 0;color: #fff;font-size: 25px;font-weight: bold;">Engineering<br>Management Building</p>
+    </div>
+    </div>
+</body>
+</html>

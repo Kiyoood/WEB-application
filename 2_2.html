@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html,body{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    width: auto;
+    height: 80px;
+    display: flex;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 1);
+    flex-direction: row;
+}
+    a{
+    color: black;
+ text-decoration: none;   
+}
+input[type="text"], input[type="password"]{
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 10px;
+			border-radius: 3px;
+			border: 1px solid #ccc;
+			box-sizing: border-box;
+			font-size: 16px;
+		}
+        input[type="submit"]{
+			background-color: #007aff;
+			color: #fff;
+			border: none;
+			border-radius: 3px;
+			padding: 10px 20px;
+			cursor: pointer;
+			font-size: 16px;
+			transition: background-color 0.3s ease;
+		}
+		input[type="submit"]:hover{
+			background-color: #0062cc;
+		}
+        button{
+            background-color: #007aff;
+			color: #fff;
+			border: none;
+			border-radius: 3px;
+			padding: 10px 20px;
+			cursor: pointer;
+			font-size: 16px;
+			transition: background-color 0.3s ease;
+        }
+        button:hover{
+            background-color: #0062cc;
+        }
+</style>
+<body>
+    <div class="nav">
+        <div style="align-items: center;display: flex;">
+            <a href="./2_1.php"><img src="./img/3.svg" style="width: 50px;height: 50px;margin-left: 30px;"></a>
+        </div>
+        <p style="margin: 0;font-size: 20px;font-weight: bold;margin-left: 30px;margin-top: 25px;margin-right: 10px;width: 300px;">Posts & Messages</p>
+    </div>
+    <div style="display: flex;justify-content: center;width: 100%;height: 100vh;">
+    <div style="display: flex;flex-direction: column;box-shadow: 0 1px 2px rgba(0, 0, 0, 3);width: 80%;height: 80vh;margin-top: 30px;border-radius: 5px;">
+        <form action="post.php" method="post">
+        <input style="margin-top: 20px;width: 50%;margin-left: 20px;" type="text" name="name" placeholder="your name">
+        <input style="margin-top: 20px;width: 50%;height: 50vh;margin-left: 20px;" type="text" name="txt" placeholder="Comments">
+        <input type="submit" style="width: 50%;margin-top: 20px;margin-left: 20px;" value="submit">
+    </form>
+    </div>
+</div>
+</body>
+</html>
